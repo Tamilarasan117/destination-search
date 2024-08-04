@@ -1,0 +1,21 @@
+/* Write your CSS here */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+.destination-list-card {
+  margin: 25px;
+  list-style-type: none;
+}
+.img {
+  max-width: 250px;
+}
+.destination {
+  font-size: 20px;
+  margin-top: 10px;
+  text-align: left;
+  font-weight: bold;
+  color:  #252627;
+}

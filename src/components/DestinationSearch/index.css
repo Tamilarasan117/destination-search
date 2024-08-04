@@ -1,0 +1,55 @@
+/* Write your CSS here */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans';
+}
+.destination-search-container {
+  min-height: 100vh;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.search-heading {
+  font-size: 46px;
+  font-weight: bold;
+  color:  #0f172a;
+  margin: 15px 0;
+  text-align: center;
+}
+.search-input-icon-card {
+  background-color: #f1f5f9;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  border-radius: 7px;
+  padding: 3px;
+  margin: 15px 0;
+}
+.search-input {
+  background-color: #f1f5f9;
+  color: #252627;
+  font-size: 16px;
+  padding: 10px 15px;
+  outline: none;
+  width: 100%;
+  border: none;
+  font-family: 'Roboto';
+}
+.search-icon {
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+}
+.destination-list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
